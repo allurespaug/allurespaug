@@ -393,8 +393,6 @@ button:hover{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    
-
   }
 }
 .merch{
@@ -402,4 +400,7 @@ button:hover{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.md h1{
+  color: white;
 }
