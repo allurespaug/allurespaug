@@ -19,10 +19,6 @@ body{
 
 }
 @media(max-width: 900px){
-  /* .mid h1{
-    font-size: 32px;
-  
-  } */
 }
 .mid p{
   color: white;
@@ -57,11 +53,11 @@ button:hover{
 @media(max-width: 900px){
   button{
   
-    width: 140px;
+    width: 120px;
     height: 40px;
     padding: 10px;
     margin-top: 10px;
-    margin-left: 27px;
+    margin-left: 15px;
     border-radius: 5px;
     font-size: 1.3em;
     background-color: rgb(29, 185, 84);
@@ -149,6 +145,7 @@ button:hover{
   color: rgba(255, 145, 0, 0.582);
   font-size: 1.2em;
   font-weight: 400;
+  margin-bottom: 10px;
 }
 .take{
   padding-top: 20px;
@@ -167,6 +164,7 @@ button:hover{
 .tk h2{
   color: #ffffff;
   text-decoration: underline;
+  margin-bottom: 10px;
 }
 @media(max-width: 800px){
   .try{
@@ -232,17 +230,17 @@ button:hover{
 
 @media(max-width: 900px) {
   .spr{
-    height: 283px;
+    height: 290px;
     text-align: center;
   }
   .pics{
     padding: 0;
-    margin-right: 10px;
+    margin-right: 7px;
     
   }
   .pics img{
     border-radius: 0;
-    width: 136px;
+    width: 128px;
     height: 120px;
     border-radius: 5px;
   }
@@ -259,27 +257,39 @@ button:hover{
     color: #ffffff;
   }
 }
+@media(max-width: 320px){
+  .pics img{
+    width: 100px;
+    height: 100px;
+  }
+}
 .os{
-  height: 90px;
+  height: 200px;
   text-align: center;
-  padding: 10px;
+
   
 }
 .os h4{
   color: #ffffff;
   margin-top: 10px;
-  margin-bottom: 20px;
-  border-radius: 20px;
   font-size: 1.4em;
+}
+.os .in{
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  border-radius: 10px;
 }
 .os p{
   color: rgba(255, 145, 0, 0.829);
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 @media(max-width: 800px){
     .os{
-      height: 150px;
-      margin-bottom:20px;
+      height: 250px;
     }
     .os p{
       font-size: 1.2em;
@@ -294,6 +304,12 @@ button:hover{
   text-align: center;
   margin-top: 30px;
   background-color: rgba(0, 255, 255, 0.11);
+}
+.out{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .bottom .title{
   color: rgb(101,111,121);
@@ -339,7 +355,6 @@ button:hover{
 }
 .contact{
   height: 300px;
-  /* border: 2px red solid; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -348,17 +363,11 @@ button:hover{
 .contact .app{
   width: 200px;
   height: 200px;
-  /* border: 2px yellow solid; */
   background: linear-gradient(490deg,rgba(0, 0, 255, 0.918),rgba(128, 0, 128, 0.89),rgba(182, 91, 182, 0.623));
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%); */
-
 }
 .app a{
   text-decoration: none;
@@ -393,6 +402,8 @@ button:hover{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    
+
   }
 }
 .merch{
@@ -400,7 +411,4 @@ button:hover{
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.md h1{
-  color: white;
 }
