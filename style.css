@@ -248,12 +248,12 @@ button:hover{
     border: none;
   }
   .pics p{
-    font-size: 16px;
+    font-size: 1em;
     color: grey;
   }
 
   .pics h3{
-    font-size: 16px;
+    font-size: 0.9em;
     color: #ffffff;
   }
 }
@@ -369,12 +369,24 @@ button:hover{
   justify-content: center;
   align-items: center;
 }
-.app a{
-  text-decoration: none;
-  color: white;
-  font-size: 1.2em;
-  font-weight: 600;
+
+
+.nut{
+  border-radius: 5px;
+  width: 120px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(29, 185, 84);
 }
+.nut a{
+  text-decoration: none;
+  font-size: 1.6em;
+  color: white;
+  font-weight: 400;
+}
+
 .call{
   margin-top: 20px;
   height: 500px;
@@ -386,6 +398,8 @@ button:hover{
   border-radius: 10px;
   
 }
+
+
 .call .ct{
   font-size: 1.4em;
   margin-left: 25px;
@@ -395,8 +409,13 @@ button:hover{
   cursor: pointer;
   border-radius: 20px;
   padding: 8px 20px;
-  /* transition: transform 0.3s ease-out; */
+  transition: transform 0.3s ease-out;
 }
+.ct a{
+  text-decoration: none;
+  color: white;
+}
+
 @media(max-width: 800px){
   .call{
     display: flex;
@@ -411,8 +430,4 @@ button:hover{
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.md h1{
-  color: white;
-  font-size: 1.3em;
 }
