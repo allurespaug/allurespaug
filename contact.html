@@ -35,15 +35,11 @@
         <div class="contact">
 
           <div class="app">
-            <div class="txt">
-              <a href="menu.html">Book Today</a>
+            <div class="nut">
+              <button onclick="openDialPad">Book Now</button>
             </div>
-            
           </div>
-          <div class="call">
-            <p></p>
-          </div>
-
+         
         </div>
         
     <section class="li">
@@ -55,6 +51,15 @@
       <p>We are open 24/7</p>
     </div>
   </section>
+
+
+  <script>
+    function openDialPad() {
+      var phoneNumber = '+256 774235230';
+      var dialUri = 'tel:' + phoneNumber;
+      window.location.href = dialUri;
+    }
+  </script>
   </body>
 
 </html>
